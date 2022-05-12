@@ -1,24 +1,25 @@
-body{
-  height: 100vh;
-  margin: 0;
+:root{
+  --main-color: teal;
+  --hover-color: rgb(2, 85, 85);
+  --text-color: white;
 }
-div{
-  width: 50px;
-  height: 50px;
-  border: 1px solid;
+.nav-list{
+  font-size: 0;
+  padding-left: 20px;
 }
-.top{
-  top:0;
+.nav-list-item{
+  display: inline-block;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  font-size: initial;
 }
-.bottom{
-  bottom: 0;
+.nav-list-item:hover{
+  background-color: var(--hover-color);
 }
-.left{
-  left: 0;
+section{
+  margin-top: 20px;
 }
-.right{
-  right: 0;
-}
-.fixed {
-  position: fixed;
+.nav-list-link{
+  display: inline-block;
+  padding: 1em;
 }
