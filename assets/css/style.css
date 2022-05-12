@@ -16,10 +16,13 @@
 .nav-list-item:hover{
   background-color: var(--hover-color);
 }
+.nav-list-item + .nav-list-item{
+  border-left: 1px solid var(--hover-color);
+}
 section{
   margin-top: 20px;
 }
 .nav-list-link{
   display: inline-block;
-  padding: 1em;
+  padding: 1em 1.5em;
 }
